@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TravisCI</string>
+    <string name="test">TravisCI TEST 1</string>
+</resources>
