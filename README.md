@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/huynhvan257/android-travis-ci-demo.png?branch=master)](https://travis-ci.org/huynhvan257/android-travis-ci-demo)
+[![Build Status](https://travis-ci.org/huynhvan257/android-travis-ci-demo.png?branch=master)](https://travis-ci.org/huynhvan257/android-travis-ci-demo)]
 
 This is the Travis CI and DeployGate for the Android.
 This Demo, you can use the Travis auto build and auto upload to Deploygate use API from Android easily.
@@ -8,13 +8,13 @@ For issue tracking see the GitHub issues page: https://github.com/DeployGate/gra
 ## Use
 Edit file .travis.yml:
 
-[![Build Status](https://raw.githubusercontent.com/huynhvan257/android-travis-ci-demo/master/image/add_env_variable.png)
+[![Add Env Variable](https://raw.githubusercontent.com/huynhvan257/android-travis-ci-demo/master/image/add_env_variable.png)]
 - Add TOKEN_DEPLOYGATE with token from account DeployGate
 - Add DEPLOYGATE wiht user from account DeployGate
  
 Get TOKEN: Account Setting -> API key (Token)
-[![Build Status](https://raw.githubusercontent.com/huynhvan257/android-travis-ci-demo/master/image/get-app-token.png)
-[![Build Status](https://raw.githubusercontent.com/huynhvan257/android-travis-ci-demo/master/image/api-token.png)
+[![Get APP Token](https://raw.githubusercontent.com/huynhvan257/android-travis-ci-demo/master/image/get-app-token.png)]
+[![Get token](https://raw.githubusercontent.com/huynhvan257/android-travis-ci-demo/master/image/api-token.png)]
 
 
 
