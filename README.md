@@ -20,7 +20,7 @@ Get TOKEN: Account Setting -> API key (Token)
 Edit file .travis.yml:
 + Line - ./gradlew clean <type-build>
     - <type-build> : type build (sample assembleRelease)
-+ Line - curl -F "file=@<path-apk>" -F "token=<Token>" -F "message=<message>" https://deploygate.com/api/users/<account-name>/apps
++ Line - curl -F "file=@app-debug.apk" -F "token=${TOKEN_DEPLOYGATE}" -F "message=Auto upload" https://deploygate.com/api/users/${DEPLOYGATE}/apps
     - <path-apk>: path of apk file (sample apk-debug.apk)
     - TOKEN_DEPLOYGATE: Token account DeployGate
     - DEPLOYGATE: user account DeployGate (sample huynhvan257)
