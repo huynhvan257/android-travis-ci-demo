@@ -8,13 +8,13 @@ For issue tracking see the GitHub issues page: https://github.com/DeployGate/gra
 ## Use
 Edit file .travis.yml:
 
-(https://raw.githubusercontent.com/huynhvan257/android-travis-ci-demo/master/image/add_env_variable.png)
+[![Build Status](https://raw.githubusercontent.com/huynhvan257/android-travis-ci-demo/master/image/add_env_variable.png)
 - Add TOKEN_DEPLOYGATE with token from account DeployGate
 - Add DEPLOYGATE wiht user from account DeployGate
  
 Get TOKEN: Account Setting -> API key (Token)
-(https://raw.githubusercontent.com/huynhvan257/android-travis-ci-demo/master/image/get-app-token.png)
-(https://raw.githubusercontent.com/huynhvan257/android-travis-ci-demo/master/image/api-token.png)
+[![Build Status](https://raw.githubusercontent.com/huynhvan257/android-travis-ci-demo/master/image/get-app-token.png)
+[![Build Status](https://raw.githubusercontent.com/huynhvan257/android-travis-ci-demo/master/image/api-token.png)
 
 
 
