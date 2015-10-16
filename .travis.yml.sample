@@ -26,8 +26,8 @@ android:
     # - sys-img-x86-android-17
 
 script:
-- ./gradlew clean assembleRelease
+- ./gradlew clean <type-build>
 # Auto upload to DeployGate with API
 - cd app/build/outputs/apk/
 # - ls
-- curl -F "file=@app-release-unsigned.apk" -F "token=$TOKEN_DEPLOYGATE" -F "message=<message>" https://deploygate.com/api/users/$DEPLOYGATE/apps
+- curl -F "file=@<path-apk>" -F "token=<Token>" -F "message=<message>" https://deploygate.com/api/users/<account-name>/apps
