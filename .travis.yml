@@ -30,4 +30,4 @@ script:
 # Auto upload to DeployGate with API
 - cd app/build/outputs/apk/
 # - ls
-- curl -F "file=@app-release-unsigned.apk" -F "token=$TOKEN_DEPLOYGATE" -F "message=<message>" https://deploygate.com/api/users/$DEPLOYGATE/apps
+- curl -F "file=@app-release-unsigned.apk" -F "token=$TOKEN_DEPLOYGATE" -F "message=Auto upload" https://deploygate.com/api/users/$DEPLOYGATE/apps
