@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/DeployGate/android-travis-ci-demo.png?branch=master)](https://travis-ci.org/huynhvan257/android-travis-ci-demo)
+[![Build Status](https://travis-ci.org/huynhvan257/android-travis-ci-demo.png?branch=master)](https://travis-ci.org/huynhvan257/android-travis-ci-demo)
 
 This is the Travis CI and DeployGate for the Android.
 This Demo, you can use the Travis auto build and auto upload to Deploygate use API from Android easily.
