@@ -10,6 +10,7 @@ For issue tracking see the GitHub issues page: https://github.com/DeployGate/gra
 + In account Travis CI of project choose Setting->Setting and add variable
  - Add TOKEN_DEPLOYGATE with token from account DeployGate
  - Add DEPLOYGATE wiht user from account DeployGate
+ - Add BUILD_DEBUG = 1 : Auto build and upload to DeployGate
 ![Add Env Variable](https://raw.githubusercontent.com/huynhvan257/android-travis-ci-demo/master/image/add_env_variable.png)
  
 + Get TOKEN
@@ -19,7 +20,7 @@ For issue tracking see the GitHub issues page: https://github.com/DeployGate/gra
 ![Get token](https://raw.githubusercontent.com/huynhvan257/android-travis-ci-demo/master/image/api-token.png)
 
 
-Edit file .travis.yml:
+Edit file travis.sh:
 + Line - ./gradlew clean <type-build>
     - <type-build> : type build (sample assembleRelease)
 + Line - curl -F "file=@app-debug.apk" -F "token=${TOKEN_DEPLOYGATE}" -F "message=Auto upload" https://deploygate.com/api/users/${DEPLOYGATE}/apps
