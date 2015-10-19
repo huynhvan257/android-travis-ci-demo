@@ -5,7 +5,7 @@ This Demo, you can use the Travis auto build and auto upload to Deploygate use A
 
 For issue tracking see the GitHub issues page: https://github.com/DeployGate/gradle-deploygate-plugin/issues
 
-## Use
+## Usage
 
 + In account Travis CI of project choose Setting->Setting and add variable
  - Add TOKEN_DEPLOYGATE with token from account DeployGate
