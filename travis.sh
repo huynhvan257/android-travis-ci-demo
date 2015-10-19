@@ -1,5 +1,5 @@
 #!/bin/bash
-if [ ${BUILD_DEBUG} = 1 ];
+if [ ${BUILD_DEBUG} = 1 ]
     then
         ./gradlew clean assembleDebug
         cd app/build/outputs/apk/
