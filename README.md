@@ -31,7 +31,7 @@ Edit file travis.sh:
 
 
 ## License
-Copyright 2012-2014 Huynh Van
+Copyright 2012-2016 Huynh Van
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
